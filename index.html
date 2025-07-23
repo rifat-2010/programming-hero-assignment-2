@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>programming-hero-assignment-2</title>
+    <!-- google inter font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- tailwind framework link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="stylesheet" href="./color.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header class="max-w-[1140px] mx-auto mb-[120px]">
+      <nav
+        class="flex items-center justify-between px-[20px] py-[10px] mb-[120px]"
+      >
+        <img
+          src="assets/logo.png"
+          alt="header-logo"
+          class="w=[135px] h-[82px]"
+        />
+
+        <ul type="none" class="flex gap-[48px] cursor-pointer">
+          <li class="text-[#252432] font-bold hidden sm:block">Home</li>
+          <li class="text-[#8987A1] hidden sm:block">Shop</li>
+          <li class="text-[#8987A1] hidden sm:block">About</li>
+          <li class="text-[#000000]">
+            <i class="fa-solid fa-cart-shopping"></i>Cart ($56)
+          </li>
+        </ul>
+      </nav>
+
+      <div class="flex md:flex-row flex-col-reverse">
+        <div class="flex flex-col gap-[13px] justify-end">
+          <h1
+            class="md:text-[65px] text-[24px] font-bold text-[#000000] font-serif px-[16px]"
+          >
+            ALWAYS
+            <span class="text-[#E95A08]"
+              >FRESH<br />
+              FLOWERS</span
+            >
+          </h1>
+          <p class="text-black/50 max-w-[570px] px-[16px]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+
+        <img src="assets/hero-flower.png" alt="hero-flower" class="w-full" />
+      </div>
+    </header>
+
+  </body>
+</html>
