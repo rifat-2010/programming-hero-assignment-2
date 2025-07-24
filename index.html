@@ -50,7 +50,7 @@
       <div class="flex md:flex-row flex-col-reverse">
         <div class="flex flex-col gap-[13px] justify-end">
           <h1
-            class="md:text-[65px] text-[24px] font-bold text-[#000000] font-serif px-[16px]"
+            class="mt-[28px] md:text-[65px] text-[24px] font-bold text-[#000000] font-serif px-[16px]"
           >
             ALWAYS
             <span class="text-[#E95A08]"
@@ -83,8 +83,10 @@
         fresh.
       </p>
 
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-[30px] mb-[210px] w-full">
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-[30px] mb-[210px] w-full px-[20px]"
+      >
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -96,7 +98,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -108,7 +110,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -120,7 +122,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -132,7 +134,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -144,7 +146,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -156,7 +158,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -168,7 +170,7 @@
             ADD TO CART
           </button>
         </div>
-        <div class="w-[270px] h-[484.94px] flex flex-col gap-[25px]">
+        <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
           <div class="gap-0">
             <h2 class="text-[22px] font-medium text-center">Lily Blossom</h2>
@@ -184,28 +186,34 @@
 
       <!-- main > banner section -->
       <div class="flex flex-col md:flex-row gap-[60px] mb-[130px]">
-        <img
-          src="./assets/flower-store.png"
-          alt="flower-store-image"
-          class="h-[auto] mx-auto md:w-[540px] h-[597px]"
-        />
-
+        <div class="relative">
+          <img
+            src="./assets/flower-store.png"
+            alt="flower-store-image"
+            class="h-full max-w-[358px] mx-auto md:w-[540px] h-[597px]"
+          />
+          <img
+            src="./assets/trusted-badge.png"
+            alt="trusted-badge"
+            class="max-w-[226px] h-[226px] absolute top-0 right-0 translate-x-2/5 -translate-y-2/6 hidden sm:block"
+          />
+        </div>
         <div class="flex flex-col gap-[20px] items-center justify-center">
           <h1 class="max-w-[540px] text-[50px] font-bold font-serif">
             Flower & Plants Lover
           </h1>
           <ul class="list-disc flex flex-col gap-[20px]">
-            <li class="text-black/50 max-w-[540px]">
+            <li class="text-black/50 mx-[40px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li class="text-black/50 max-w-[540px]">
+            <li class="text-black/50 mx-[40px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li class="text-black/50 max-w-[540px]">
+            <li class="text-black/50 mx-[40px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
