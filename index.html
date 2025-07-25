@@ -71,7 +71,7 @@
 
     <!--main > banner boxes section -->
 
-    <main class="max-w-[1140px] mx-auto relative">
+    <main class="">
       <h1 class="text-[50px] font-bold text-center">
         <span class="text-[#E95A08]">Our</span> Plants
       </h1>
@@ -84,7 +84,7 @@
       </p>
 
       <div
-        class="grid grid-cols-2 md:grid-cols-4 gap-[30px] mb-[210px] w-full px-[20px]"
+        class="grid grid-cols-2 md:grid-cols-4 gap-[30px] mb-[210px] w-full px-[20px] max-w-[1140px] mx-auto"
       >
         <div class="max-w-[270px] h-[484.94px] flex flex-col gap-[25px]">
           <img src="assets/sample-flower-image.png" alt="sample-flower-image" />
@@ -185,7 +185,7 @@
       </div>
 
       <!-- main > banner section -->
-      <div class="flex flex-col md:flex-row gap-[60px] mb-[130px]">
+      <div class="flex flex-col md:flex-row gap-[60px] mb-[130px] max-w-[1140px] mx-auto">
         <div class="relative">
           <img
             src="./assets/flower-store.png"
@@ -242,7 +242,7 @@
       <!-- search area section -->
 
       <div
-        class="w-full h-[533px] bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center flex justify-center items-center max-w[1440px]"
+        class="w-full h-[533px] bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center flex justify-center items-center"
       >
         <div class="max-w-[1140px] w-full text-center space-y-4">
           <h1
@@ -264,9 +264,38 @@
           </div>
         </div>
       </div>
-
-
-      
     </main>
+    <!-- footer -->
+    <footer class="flex justify-center items-center h-auto md:h-[348px] w-full">
+      <div class="flex flex-col ml-[20px] md:flex-row justify-center gap-[20px] w-full md:gap-[110px]">
+        <div class="flex flex-col gap-[16px]">
+          <img src="./assets/logo.png" alt="logo" class="w-[135px] h-[82px]" />
+          <p class="text-black/50 max-w-[359px]">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </p>
+        </div>
+
+        <ul type="none" class="flex flex-col gap-[32px]">
+          <li class="text-black/50">Home</li>
+          <li class="text-black/50">About Us</li>
+          <li class="text-black/50">Blog</li>
+          <li class="text-black/50">FAQ</li>
+          <li class="text-black/50">Contact Us</li>
+        </ul>
+        <ul type="none" class="flex flex-col gap-[32px]">
+          <li class="text-black/50">Features</li>
+          <li class="text-black/50">Pricing</li>
+          <li class="text-black/50">Privacy Policy</li>
+          <li class="text-black/50">Terms of Service</li>
+          <li class="text-black/50">Help Center</li>
+        </ul>
+        <div class="grid grid-cols-4 gap-0 md:gap-[24px]">
+          <img src="./assets/icon-linkedin.png" alt="icon-linkedin" ">
+          <img src="./assets/icon-twitter.png" alt="icon-twitter" class="pt-[10px]">
+          <img src="./assets/icon-facebook.png" alt="icon-facebook" >
+          <img src="./assets/icon-youtube.png" alt="icon-youtube" >
+      </div>
+    </footer>
   </body>
 </html>
