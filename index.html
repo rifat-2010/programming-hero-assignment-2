@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./color.css" />
   </head>
-  <body>
+  <body class="bg-[#f5f8ff]">
     <!-- header section -->
     <header class="max-w-[1140px] mx-auto mb-[120px]">
       <nav
@@ -185,12 +185,12 @@
       </div>
 
       <!-- main > banner section -->
-      <div class="flex flex-col md:flex-row gap-[60px] mb-[130px] max-w-[1140px] mx-auto">
-        <div class="relative">
+      <div class="flex flex-col md:flex-row md:gap-[30px] mb-[130px] max-w-[1140px] mx-auto">
+        <div class="relative ">
           <img
             src="./assets/flower-store.png"
             alt="flower-store-image"
-            class="h-full max-w-[358px] mx-auto md:w-[540px] h-[597px]"
+            class="h-full mx-auto md:w-[540px] h-[597px] py-30 md:py-0"
           />
           <img
             src="./assets/trusted-badge.png"
@@ -203,17 +203,17 @@
             Flower & Plants Lover
           </h1>
           <ul class="list-disc flex flex-col gap-[20px]">
-            <li class="text-black/50 mx-[40px]">
+            <li class="text-black/50 mx-[70px] md:mx-[120px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li class="text-black/50 mx-[40px]">
+            <li class="text-black/50 mx-[70px] md:mx-[120px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li class="text-black/50 mx-[40px]">
+            <li class="text-black/50 mx-[70px] md:mx-[120px]">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
@@ -223,7 +223,7 @@
       </div>
 
       <!-- main > details section -->
-      <!-- <h1 class="text-[50px] font-bold text-center">
+       <h1 class="text-[50px] font-bold text-center font-serif">
         <span class="text-[#E95A08]">Latest</span> Deals
       </h1>
       <p
@@ -233,11 +233,57 @@
         shop. From classic roses to exotic blooms, we offer a wide variety of
         fresh.
       </p>
-
-      <div class="">
-        <div class="bg-[url('./assets/deal-bloom.png')]">
-
-        </div> -->
+      <div class="max-w-[1140px] mx-auto md:h-[443px] h-auto grid grid-cols-1  md:grid-cols-[1fr_2fr] gap-[28px] mb-[120px]">
+        <div class="flex flex-col gap-[28px]">
+     <div
+        class="mx-o4  bg-[url('./assets/deal-bloom.png')] bg-cover bg-center flex justify-center items-center w-auto h-auto  md:w-full  mx-0 py-30 md:py-0 mx-4 md:mx-0   md:h-[50%]"
+      >
+       
+           <div class="flex flex-col gap-[20px] justify-center items-center">
+          <h1
+            class="text-[20px] font-bold text-[#FFFFFF] font-serif"
+          >
+           60% Off | Bloom Plant
+           
+          </h1>
+          <a href="#" class="text-[20px] font-bold text-[#FFFFFF]"><u>Shop Now</u></a>
+          </div>
+   
+      </div>
+     <div
+        class=" bg-[url('./assets/deal-ana.png')] bg-cover bg-center flex justify-center items-center w-auto h-auto py-30 md:py-0 mx-4 md:mx-0  md:h-[50%]"
+      >
+       <div class="flex flex-col gap-[20px] justify-center items-center">
+          <h1
+            class="text-[20px] font-bold text-[#FFFFFF] font-serif"
+          >
+          30% Off | Ana  Plant
+           
+          </h1>
+          <a href="#" class="text-[20px] font-bold text-[#FFFFFF]"><u>Shop Now</u></a>
+          </div>
+      </div>
+      </div>
+     <div
+        class=" bg-[url('./assets/deal-zabo.png')] bg-cover bg-center flex justify-center items-center w-auto h-auto py-30 md:py-0 mx-4 md:mx-0"
+      >
+        <div class="flex flex-col gap-[20px] justify-center items-center">
+          <h1
+            class="text-[40px] font-bold text-[#FFFFFF] font-serif"
+          >
+           25% Off | Zabo Plant
+           
+          </h1>
+          <a href="#" class="text-[26px] font-bold text-[#FFFFFF]"><u>Shop Now</u></a>
+          </div>
+   
+      </div>
+      
+      </div>
+   
+       
+      
+      
 
       <!-- search area section -->
 
@@ -264,9 +310,9 @@
           </div>
         </div>
       </div>
-    </main>
+    </main> 
     <!-- footer -->
-    <footer class="flex justify-center items-center h-auto md:h-[348px] w-full">
+   <footer class="flex justify-center items-center h-auto md:h-[348px] w-full">
       <div class="flex flex-col ml-[20px] md:flex-row justify-center gap-[20px] w-full md:gap-[110px]">
         <div class="flex flex-col gap-[16px]">
           <img src="./assets/logo.png" alt="logo" class="w-[135px] h-[82px]" />
@@ -277,24 +323,24 @@
         </div>
 
         <ul type="none" class="flex flex-col gap-[32px]">
-          <li class="text-black/50">Home</li>
-          <li class="text-black/50">About Us</li>
-          <li class="text-black/50">Blog</li>
-          <li class="text-black/50">FAQ</li>
-          <li class="text-black/50">Contact Us</li>
+          <li class="text-black/50"><a href="#">Home</a></li>
+          <li class="text-black/50"><a href="#">About Us</a></li>
+          <li class="text-black/50"><a href="#">Blog</a></li>
+          <li class="text-black/50"><a href="#">FAQ</a></li>
+          <li class="text-black/50"><a href="#">Contact Us</a></li>
         </ul>
         <ul type="none" class="flex flex-col gap-[32px]">
-          <li class="text-black/50">Features</li>
-          <li class="text-black/50">Pricing</li>
-          <li class="text-black/50">Privacy Policy</li>
-          <li class="text-black/50">Terms of Service</li>
-          <li class="text-black/50">Help Center</li>
+          <li class="text-black/50"><a href="#">Features</a></li>
+          <li class="text-black/50"><a href="#">Pricing</a></li>
+          <li class="text-black/50"><a href="#">Privacy Policy</a></li>
+          <li class="text-black/50"><a href="#">Terms of Service</a></li>
+          <li class="text-black/50"><a href="#">Help Center</a></li>
         </ul>
         <div class="grid grid-cols-4 gap-0 md:gap-[24px]">
-          <img src="./assets/icon-linkedin.png" alt="icon-linkedin" ">
-          <img src="./assets/icon-twitter.png" alt="icon-twitter" class="pt-[10px]">
-          <img src="./assets/icon-facebook.png" alt="icon-facebook" >
-          <img src="./assets/icon-youtube.png" alt="icon-youtube" >
+          <a href="https://www.linkedin.com/" target="blank"><img src="./assets/icon-linkedin.png" alt="icon-linkedin"></a>
+          <a href="https://x.com/" target="blank"><img src="./assets/icon-twitter.png" alt="icon-twitter" class="pt-[10px]"></a>
+          <a href="https://www.facebook.com/" target="blank"><img src="./assets/icon-facebook.png" alt="icon-facebook" ></a>
+         <a href="https://www.youtube.com/" target="blank"><img src="./assets/icon-youtube.png" alt="icon-youtube" ></a>
       </div>
     </footer>
   </body>
